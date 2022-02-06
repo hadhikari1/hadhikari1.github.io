@@ -1,0 +1,170 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'menu main main main main main'
+    'menu right right right right right'
+    'footer footer footer footer footer footer';
+    gap: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.grid-container > div {
+    background-color: rgba(241, 233, 233, 0.404);
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+/* Header navigation */
+.item1 {
+    font-weight: bold;
+    grid-area: header;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(14, 67, 165);
+    height: 50px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.nav-link{
+    margin-right: 15px;
+}
+.nav-link:hover{
+    text-decoration: none; 
+}
+
+/* About me */
+.item2 {
+    grid-area: menu;
+}
+.aboutMe{
+    margin: 10px;
+}
+.profilePicture{
+    height: 3in;
+}
+.discription{
+    margin-top: -10px;
+}
+
+.discription p {
+    margin-top: -15px;
+}
+.contactMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.links{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.icon{
+    height: 30px;
+}
+.icon:hover{
+    opacity: .7;
+}
+/* Projects */
+.item3 {
+    grid-area: main;
+}
+
+.projects{
+    text-align: center;
+}
+
+.articles{
+    margin-top: -20px !important;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.singleArticle{
+    flex: 1;
+    margin: 5px;
+    border: 1px solid rgb(88, 87, 87);
+    border-radius: 10px;
+}
+
+.articleTitle{
+    text-align: center;
+}
+
+.projectOne{
+    margin: 2px;
+    margin-left: 5px;
+}
+
+.projectOne img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+.item4 {
+    grid-area: right;
+}
+.item4 section{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.skillsWrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#skills{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-top: -8px;
+}
+.skillsLogo{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-top: -20px;
+}
+.language{
+    height: 50px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title h3{
+    flex: 1;
+}
+
+.skillOne{
+    margin-top: -15px;
+    margin-right: 15px;
+}
+
+.item5 {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.grid-container-boxes{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
