@@ -14,6 +14,7 @@
     border-radius: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
+
 /* Header navigation */
 .item1 {
     font-weight: bold;
@@ -170,17 +171,14 @@
     grid-template-columns: repeat(3, auto);
 } */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .grid-container {
-        display: grid;
         grid-template-areas: 
         'header'
         'menu'
         'main'
         "right"
         'footer';
-        gap: 1em;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
     }
     .navigation{
         justify-content: left;
