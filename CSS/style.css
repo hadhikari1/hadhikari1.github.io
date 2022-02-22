@@ -9,7 +9,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.grid-container > div {
+.grid-container > div {.
     background-color: rgba(241, 233, 233, 0.404);
     border-radius: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
