@@ -9,7 +9,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.grid-container > div {.
+.grid-container > div {
     background-color: rgba(241, 233, 233, 0.404);
     border-radius: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
@@ -17,14 +17,13 @@
 
 /* Header navigation */
 .item1 {
-    font-weight: bold;
     grid-area: header;
+    font-weight: bold;
     justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(14, 67, 165);
     height: 50px;
 }
-
 .navigation{
     display: flex;
     flex-direction: row;
@@ -46,6 +45,7 @@
 }
 .profilePicture{
     height: 3in;
+    border-radius: 10px;
 }
 .discription{
     margin-top: -10px;
@@ -162,14 +162,8 @@
     grid-area: footer;
     display: flex;
     justify-content: center;
-    font-size: x-large;
-    padding: 10px;
+    font-size: large;
 }
-
-/* .grid-container-boxes{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-} */
 
 @media screen and (max-width: 600px) {
     .grid-container {
