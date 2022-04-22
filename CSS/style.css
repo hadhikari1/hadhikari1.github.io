@@ -48,10 +48,12 @@
     border-radius: 10px;
 }
 .threeThings{
-text-align: center;
-font-weight: bold;
-background-color: rgb(146, 146, 206);
-border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(146, 146, 206);
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: -22px;
 }
 .discription{
     margin-top: -10px;
